@@ -1,0 +1,2 @@
+今天遇到`Inconsistency detected. Invalid view holder adapter positionViewHolder{f529e14 position=3 id=-1, oldPos=-1, pLpos:-1 no parent}`异常,之前也遇到过犹由于项目紧张就没有关注  
+错误中没有明显指向自己的代码错误,第一反映是 Recycler的bug.到网上一查,结果真有人说是 RecyclerView 的 bug,个人认为应该是个人操作失误,找了很久是因为提前 clear 数据源 adapter 自动更新造成的
